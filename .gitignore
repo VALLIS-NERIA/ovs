@@ -30,6 +30,7 @@
 .libs
 .tmp_versions
 .gitattributes
+/.vscode
 /Makefile
 /Makefile.in
 /aclocal.m4
