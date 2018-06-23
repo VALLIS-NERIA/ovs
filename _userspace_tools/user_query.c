@@ -63,7 +63,7 @@ int main() {
             printf("->");
             print_ip(recv_buf[i].key.dstip);
 
-            printf("%llu \n", recv_buf[i].value);
+            printf(": %llu \n", recv_buf[i].value);
         }
     }
     close(sockfd);
